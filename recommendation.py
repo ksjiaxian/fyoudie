@@ -6,4 +6,8 @@
 
 # a person defined by their history
 
-# how hi
+# how is history defined to be?
+
+# the past restaurants
+# ratings
+
