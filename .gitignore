@@ -1,3 +1,9 @@
 yelp_dataset/
 .idea/
 python_workbooks/.ipynb_checkpoints
+python_workbooks/reviews.csv
+python_workbooks/apps.csv
+models/
+.DS_Store
+python_workbooks/.DS_Store
+.ipynb_checkpoints
