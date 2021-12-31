@@ -1,0 +1,51 @@
+2021-12-26 21:17:15,027 INFO    MainThread:3820 [wandb_setup.py:_flush():71] setting env: {}
+2021-12-26 21:17:15,027 INFO    MainThread:3820 [wandb_setup.py:_flush():71] setting login settings: {}
+2021-12-26 21:17:15,027 INFO    MainThread:3820 [wandb_init.py:_log_setup():371] Logging user logs to /Users/davnguye/nonwork/fyoudie/python_workbooks/wandb/run-20211226_211715-1xyyn6zr/logs/debug.log
+2021-12-26 21:17:15,028 INFO    MainThread:3820 [wandb_init.py:_log_setup():372] Logging internal logs to /Users/davnguye/nonwork/fyoudie/python_workbooks/wandb/run-20211226_211715-1xyyn6zr/logs/debug-internal.log
+2021-12-26 21:17:15,028 INFO    MainThread:3820 [wandb_init.py:init():404] calling init triggers
+2021-12-26 21:17:15,028 INFO    MainThread:3820 [wandb_init.py:init():409] wandb.init called with sweep_config: {}
+config: {}
+2021-12-26 21:17:15,028 INFO    MainThread:3820 [wandb_init.py:init():424] re-initializing run, found existing run on stack: 2kbql08x
+2021-12-26 21:17:15,029 INFO    MainThread:3820 [wandb_run.py:finish():1457] finishing run dhn045/fyoudie/2kbql08x
+2021-12-26 21:17:15,030 INFO    MainThread:3820 [jupyter.py:save_history():429] not saving jupyter history
+2021-12-26 21:17:15,030 INFO    MainThread:3820 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-12-26 21:17:15,030 INFO    MainThread:3820 [wandb_init.py:_jupyter_teardown():303] cleaning up jupyter logic
+2021-12-26 21:17:15,030 INFO    MainThread:3820 [wandb_run.py:_atexit_cleanup():1780] got exitcode: 0
+2021-12-26 21:17:15,031 INFO    MainThread:3820 [wandb_run.py:_restore():1752] restore
+2021-12-26 21:17:15,629 INFO    MainThread:3820 [wandb_run.py:_restore():1752] restore
+2021-12-26 21:17:15,646 ERROR   MainThread:3820 [wandb_init.py:init():958] error
+Traceback (most recent call last):
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1788, in _atexit_cleanup
+    self._on_finish()
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1963, in _on_finish
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 67, in _publish_telemetry
+    self._publish(rec)
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_queue.py", line 45, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 931, in init
+    run = wi.init()
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 437, in init
+    self._wl._global_run_stack[-1].finish()
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1463, in finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1797, in _atexit_cleanup
+    self._backend.cleanup()
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/backend/backend.py", line 245, in cleanup
+    self.interface.join()
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 458, in join
+    super().join()
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 599, in join
+    _ = self._communicate_shutdown()
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 455, in _communicate_shutdown
+    _ = self._communicate(record)
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 218, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown

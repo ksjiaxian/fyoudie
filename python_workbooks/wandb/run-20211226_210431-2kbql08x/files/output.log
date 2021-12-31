@@ -1,0 +1,229 @@
+[nltk_data] Downloading package punkt to /Users/davnguye/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+              business_id                     name              address  \
+0  6iYb2HFDywm3zjuRg0shjw      Oskar Blues Taproom         921 Pearl St
+1  tCbdrRPZA0oiIYSmHG3J0w  Flying Elephants at PDX  7000 NE Airport Way
+2  D4JtQNTI4X3KcbzacDJsMw      Bob Likes Thai Food         3755 Main St
+3  jFYIsSb7r1QeESVUnXPHBw          Boxwood Biscuit        740 S High St
+4  HPA_qyMEddpAEtFof02ixg      Mr G's Pizza & Subs        474 Lowell St
+        city state postal_code   latitude   longitude  stars  review_count  \
+0    Boulder    CO       80302  40.017544 -105.283348    4.0            86
+1   Portland    OR       97218  45.588906 -122.593331    4.0           126
+2  Vancouver    BC         V5V  49.251342 -123.101333    3.5           169
+3   Columbus    OH       43206  39.947007  -82.997471    4.5            11
+4    Peabody    MA       01960  42.541155  -70.973438    4.0            39
+   is_open                                         attributes  \
+0        1  {'RestaurantsTableService': 'True', 'WiFi': 'u...
+1        1  {'RestaurantsTakeOut': 'True', 'RestaurantsAtt...
+2        1  {'GoodForKids': 'True', 'Alcohol': 'u'none'', ...
+3        1                                               None
+4        1  {'RestaurantsGoodForGroups': 'True', 'HasTV': ...
+                                          categories  \
+0  Gastropubs, Food, Beer Gardens, Restaurants, B...
+1  Salad, Soup, Sandwiches, Delis, Restaurants, C...
+2                                  Restaurants, Thai
+3                    Breakfast & Brunch, Restaurants
+4                           Food, Pizza, Restaurants
+                                               hours
+0  {'Monday': '11:0-23:0', 'Tuesday': '11:0-23:0'...
+1  {'Monday': '5:0-18:0', 'Tuesday': '5:0-17:0', ...
+2  {'Monday': '17:0-21:0', 'Tuesday': '17:0-21:0'...
+3     {'Saturday': '8:0-14:0', 'Sunday': '8:0-14:0'}
+4  {'Monday': '11:0-21:0', 'Tuesday': '11:0-21:0'...
+50763
+                review_id                 user_id             business_id  \
+0  lWC-xP3rd6obsecCYsGZRg  ak0TdVmGKo4pwqdJSTLwWw  buF9druCkbuXLX526sGELQ
+1  hpcZLEzqD4_gPi6eSVi_Bg  Y-j2svl0M_5-jF1ehYuNPQ  buF9druCkbuXLX526sGELQ
+2  3FvY1Se8y2WXqTbaANOqMw  xUCX4GhBpeWxZB0l2lmt_w  buF9druCkbuXLX526sGELQ
+3  C1uQNP2ehBktS43ZRMEvkg  2M6KFsWIUXElqcQRz4A0Qg  buF9druCkbuXLX526sGELQ
+4  Cja8_35_kQDnF9g4voikzw  t5SRIRU6INiAyVkiMJhRPA  buF9druCkbuXLX526sGELQ
+   stars  useful  funny  cool  \
+0    4.0       3      1     1
+1    2.0       1      1     1
+2    5.0       3      0     0
+3    5.0       1      2     0
+4    1.0       0      0     0
+                                                text                 date
+0  Apparently Prides Osteria had a rough summer a...  2014-10-11 03:34:02
+1  I was really disappointed to say the least. I ...  2014-11-30 00:24:42
+2  This is as close to dining in Italy as you'll ...  2014-04-19 16:48:28
+3  Great food and service! Again. 4 out of the la...  2014-09-10 00:06:00
+4  We ordered the roasted chicken and homemade pa...  2014-08-24 23:53:23
+1089368
+                review_id                 user_id             business_id  \
+0  lWC-xP3rd6obsecCYsGZRg  ak0TdVmGKo4pwqdJSTLwWw  buF9druCkbuXLX526sGELQ
+1  hpcZLEzqD4_gPi6eSVi_Bg  Y-j2svl0M_5-jF1ehYuNPQ  buF9druCkbuXLX526sGELQ
+2  3FvY1Se8y2WXqTbaANOqMw  xUCX4GhBpeWxZB0l2lmt_w  buF9druCkbuXLX526sGELQ
+3  C1uQNP2ehBktS43ZRMEvkg  2M6KFsWIUXElqcQRz4A0Qg  buF9druCkbuXLX526sGELQ
+4  Cja8_35_kQDnF9g4voikzw  t5SRIRU6INiAyVkiMJhRPA  buF9druCkbuXLX526sGELQ
+   stars  useful  funny  cool  \
+0    4.0       3      1     1
+1    2.0       1      1     1
+2    5.0       3      0     0
+3    5.0       1      2     0
+4    1.0       0      0     0
+                                                text                 date
+0  Apparently Prides Osteria had a rough summer a...  2014-10-11 03:34:02
+1  I was really disappointed to say the least. I ...  2014-11-30 00:24:42
+2  This is as close to dining in Italy as you'll ...  2014-04-19 16:48:28
+3  Great food and service! Again. 4 out of the la...  2014-09-10 00:06:00
+4  We ordered the roasted chicken and homemade pa...  2014-08-24 23:53:23
+304393
+/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/bs4/__init__.py:337: MarkupResemblesLocatorWarning: "." looks like a directory name, not markup. You may want to open a file found in this directory and pass the filehandle into Beautiful Soup.
+  warnings.warn(
+                review_id                 user_id             business_id  \
+0  lWC-xP3rd6obsecCYsGZRg  ak0TdVmGKo4pwqdJSTLwWw  buF9druCkbuXLX526sGELQ
+1  hpcZLEzqD4_gPi6eSVi_Bg  Y-j2svl0M_5-jF1ehYuNPQ  buF9druCkbuXLX526sGELQ
+2  3FvY1Se8y2WXqTbaANOqMw  xUCX4GhBpeWxZB0l2lmt_w  buF9druCkbuXLX526sGELQ
+3  C1uQNP2ehBktS43ZRMEvkg  2M6KFsWIUXElqcQRz4A0Qg  buF9druCkbuXLX526sGELQ
+4  Cja8_35_kQDnF9g4voikzw  t5SRIRU6INiAyVkiMJhRPA  buF9druCkbuXLX526sGELQ
+   stars  useful  funny  cool  \
+0    4.0       3      1     1
+1    2.0       1      1     1
+2    5.0       3      0     0
+3    5.0       1      2     0
+4    1.0       0      0     0
+                                                text                 date
+0  Apparently Prides Osteria had a rough summer a...  2014-10-11 03:34:02
+1  I was really disappointed to say the least. I ...  2014-11-30 00:24:42
+2  This is as close to dining in Italy as you'll ...  2014-04-19 16:48:28
+3  Great food and service! Again. 4 out of the la...  2014-09-10 00:06:00
+4  We ordered the roasted chicken and homemade pa...  2014-08-24 23:53:23
+4684
+Error in callback <function _WandbInit._resume_backend at 0x7fd9f11c69d0> (for pre_run_cell):
+converting to lowercase
+done
+removing html
+done
+removing contractions
+done
+converting to lowercase
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+Exception in thread NetStatThr:
+    Traceback (most recent call last):
+self.run()
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/threading.py", line 910, in run
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self._target(*self._args, **self._kwargs)
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 170, in check_status
+    self.run()
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/threading.py", line 910, in run
+    status_response = self._interface.communicate_stop_status()
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 114, in communicate_stop_status
+    self._target(*self._args, **self._kwargs)
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    resp = self._communicate_stop_status(status)
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 378, in _communicate_stop_status
+    status_response = self._interface.communicate_network_status()
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 125, in communicate_network_status
+        resp = self._communicate_network_status(status)
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 388, in _communicate_network_status
+resp = self._communicate(req, local=True)
+      File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+resp = self._communicate(req, local=True)
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 218, in _communicate_async
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/Users/davnguye/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 218, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+done
+converting to lowercase
+done
+Error in callback <function _WandbInit._pause_backend at 0x7fd9f11c6940> (for post_run_cell):
+Error in callback <function _WandbInit._resume_backend at 0x7fd9f11c69d0> (for pre_run_cell):
+converting to lowercase
+done
+removing html
+done
+removing contractions
+done
+converting to lowercase
+done
+converting to lowercase
+done
+Error in callback <function _WandbInit._pause_backend at 0x7fd9f11c6940> (for post_run_cell):
+Error in callback <function _WandbInit._resume_backend at 0x7fd9f11c69d0> (for pre_run_cell):
+converting to lowercase
+done
+removing html
+done
+removing contractions
+done
+removing non alpha chars
+done
+removing extra whitespace
+done
+Error in callback <function _WandbInit._pause_backend at 0x7fd9f11c6940> (for post_run_cell):
+[nltk_data] Downloading package punkt to /Users/davnguye/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Error in callback <function _WandbInit._resume_backend at 0x7fd9f11c69d0> (for pre_run_cell):
+Error in callback <function _WandbInit._pause_backend at 0x7fd9f11c6940> (for post_run_cell):
+Error in callback <function _WandbInit._resume_backend at 0x7fd9f11c69d0> (for pre_run_cell):
+converting to lowercase
+done
+removing html
+done
+removing contractions
+done
+removing non alpha chars
+done
+removing extra whitespace
+done
+Error in callback <function _WandbInit._pause_backend at 0x7fd9f11c6940> (for post_run_cell):
+[nltk_data] Downloading package punkt to /Users/davnguye/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/davnguye/nltk_data...
+[nltk_data]   Unzipping corpora/stopwords.zip.
+Error in callback <function _WandbInit._resume_backend at 0x7fd9f11c69d0> (for pre_run_cell):
+Error in callback <function _WandbInit._pause_backend at 0x7fd9f11c6940> (for post_run_cell):
+Error in callback <function _WandbInit._resume_backend at 0x7fd9f11c69d0> (for pre_run_cell):
+converting to lowercase
+done
+removing html
+done
+removing contractions
+done
+removing non alpha chars
+done
+removing extra whitespace
+done
+remove stop words
+done
+perform laemmatization
+Error in callback <function _WandbInit._pause_backend at 0x7fd9f11c6940> (for post_run_cell):
+[nltk_data] Downloading package punkt to /Users/davnguye/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /Users/davnguye/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /Users/davnguye/nltk_data...
+Error in callback <function _WandbInit._resume_backend at 0x7fd9f11c69d0> (for pre_run_cell):
+[nltk_data]   Unzipping corpora/wordnet.zip.
+Error in callback <function _WandbInit._pause_backend at 0x7fd9f11c6940> (for post_run_cell):
+Error in callback <function _WandbInit._resume_backend at 0x7fd9f11c69d0> (for pre_run_cell):
+converting to lowercase
+done
+removing html
+done
+removing contractions
+done
+removing non alpha chars
+done
+removing extra whitespace
+done
+remove stop words
+done
+perform laemmatization
+done
+Error in callback <function _WandbInit._pause_backend at 0x7fd9f11c6940> (for post_run_cell):
+Error in callback <function _WandbInit._resume_backend at 0x7fd9f11c69d0> (for pre_run_cell):
+Error in callback <function _WandbInit._pause_backend at 0x7fd9f11c6940> (for post_run_cell):
+Error in callback <function _WandbInit._resume_backend at 0x7fd9f11c69d0> (for pre_run_cell):
