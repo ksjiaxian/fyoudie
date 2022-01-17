@@ -18,3 +18,4 @@ restaurant_features.csv - the vectorized characteristics of a restaurant, this i
 Requires models, found here: https://drive.google.com/drive/folders/1IAwwwh_rfG2WxwJYzp376pz58YIbJ9yO?usp=sharing
 
 
+Necessary to create a directory called 'script_data' in the main directory. This is where the intermediary data analysis files will go. 
