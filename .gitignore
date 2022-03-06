@@ -8,3 +8,4 @@ models/
 python_workbooks/.DS_Store
 .ipynb_checkpoints
 script_data/
+pickles/
