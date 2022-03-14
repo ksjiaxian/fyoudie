@@ -1,0 +1,10 @@
+Ordering of parameters and weights
+
+price = weighted
+taste = weighted 
+noise = unweighted
+decor = weighted
+saltiness = unweighted
+msg = unweighted 
+cleaniless = weighted
+oiliness = unweighted

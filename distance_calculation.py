@@ -65,3 +65,6 @@ print(math.ceil(get_distance_time("Eden Center", 38.8963, -77.0688, "Walking")["
 
 # this is the distance in miles it takes to walk there
 print(math.ceil(get_distance_time("Eden Center", 38.8963, -77.0688, "Walking")["travelDistance"] * 10) / 10)
+
+
+
